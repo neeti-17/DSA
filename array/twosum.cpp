@@ -35,7 +35,7 @@ int main(){
 // bool hasArrayTwoCandidates(int A[], int arr_size, int sum)
 // {
 //     int l, r;
-//     sort(A, A + arr_size);  or sort (a.begin(), a.end());  for vetor array
+//     sort(A, A + arr_size);  or sort (a.begin(), a.end());  for vector array
 //     r = arr_size - 1;
 //     while (l < r) {
 //         if (A[l] + A[r] == sum)
@@ -47,3 +47,4 @@ int main(){
 //     }
 //     return 0;
 // }
+
