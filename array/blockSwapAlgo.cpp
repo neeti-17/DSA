@@ -82,3 +82,7 @@ int main(){
 //   // Reverse whole array
 //   Reverse(arr, 0, n - 1);
 // }
+
+
+// rotated[(i + k) % n] = arr[i]; // Shift elements to new positions
+//this uses extra array
