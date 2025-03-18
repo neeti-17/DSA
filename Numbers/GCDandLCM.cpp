@@ -41,7 +41,17 @@ int main(){
     //     gcd = i;
     //    }
     // }
-
+    int lcm = (n1 * n2)/gcd;
+    cout << lcm << endl;
     cout << gcd << endl;
     return 0;
 }
+
+// int main() {
+// 	int n = 6, r = 4;
+// 	int ans = 1;
+// 	for (int i = n; i >= n - r + 1; i--) {
+// 		ans *= i;
+// 	}
+// 	cout << ans;
+// }
